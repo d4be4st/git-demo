@@ -6,6 +6,7 @@
 
 <!-- mostly helpers and stimulus controllers -->
 ## Components
+### [Select](components/select.md)
 ### [Dropdown](components/dropdown.md)
 
 ## API Documentation
