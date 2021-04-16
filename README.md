@@ -6,13 +6,14 @@
 
 <!-- mostly helpers and stimulus controllers -->
 ## Components
-<!-- ### [Dropdown](components/dropdown.md) -->
+### [Dropdown](components/dropdown.md)
 
 ## API Documentation
 
 The documentation URL: https://awesome.infinum.co/api/v1/docs/
 
 ## Deployment
+here is some new line
 [Semaphore](https://semaphoreci.com/rails-awesome)
 
 ### Builds
