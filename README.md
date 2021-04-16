@@ -1,24 +1,24 @@
-# README
+# Technical Documentation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<!-- Main themes -->
+### [Architecture](architecture/README.md)
+### [Development workflow](development_workflow.md)
 
-Things you may want to cover:
+<!-- mostly helpers and stimulus controllers -->
+## Components
+<!-- ### [Dropdown](components/dropdown.md) -->
 
-* Ruby version
+## API Documentation
 
-* System dependencies
+The documentation URL: https://awesome.infinum.co/api/v1/docs/
 
-* Configuration
+## Deployment
+[Semaphore](https://semaphoreci.com/rails-awesome)
 
-* Database creation
+### Builds
+Our continuous integration tool will automatically build the environment upon each push to whatever branch.
+The build installs all dependencies and runs all the specs.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Deploying
+The `staging` branch is used for the staging environment and `master` for production.
+Whenever a branch or pull request is merged to one of those environments, after the build is finished Semaphore will try to deploy it to the environment.
