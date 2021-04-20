@@ -10,10 +10,10 @@
 
 ## API Documentation
 
-The documentation URL: https://project-DOMAIN/api/v1/docs/
+The documentation URL: https://project/api/v1/docs/
 
 ## Deployment
-[Semaphore](https://semaphoreci.com/project-REPO-NAME)
+[Semaphore](https://semaphoreci.com/project)
 
 ### Builds
 Our continuous integration tool will automatically build the environment upon each push to whatever branch.
