@@ -1,3 +1,2 @@
-class User < ActiveRecord
-
+class User < ApplicationRecord
 end
