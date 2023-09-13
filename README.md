@@ -1,5 +1,6 @@
 # Technical Documentation
 
+merge promjene
 <!-- Main themes -->
 ### [Architecture](architecture/README.md)
 ### [Development workflow](development_workflow.md)
