@@ -19,8 +19,7 @@ git config --global rerere.enabled true
 
 ```
 
-# Git flow
-## Basic example
+# Rebase
 ```
 git checkout -b feature/update-user
 
@@ -43,6 +42,13 @@ git mergetool
 git rebase --continue
 git push --force-with-lease
 ```
+
+# Why rebase instead of merge?
+
+Hej stef, we are using squash and merge so it does not matter. True but.
+With `git merge master` within a feature branch you are introducing addittional changes to fix merge conflicts, but you do them for the whole
+base branch, not by the individual commits.
+Rebase gives us a nicer history and easier to follow PRs
 
 # References
 https://git-scm.com/docs/git-config
