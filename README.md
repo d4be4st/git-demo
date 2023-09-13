@@ -1,6 +1,6 @@
 # Technical Documentation
 
-Master promjene
+Promjena na merge branchu
 <!-- Main themes -->
 ### [Architecture](architecture/README.md)
 ### [Development workflow](development_workflow.md)
@@ -10,6 +10,7 @@ Master promjene
 ### [Dropdown](components/dropdown.md)
 <!-- ### [Dropdown1](components/dropdown.md) -->
 
+Rebase promjena
 
 ## API Documentation
 
